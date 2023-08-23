@@ -1,0 +1,152 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.component-container-invapp{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 5px ridge #22223b;
+  background: #4a4e69 url("backgroundtexturedndapp.jpg");
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.search-h1 {
+  color: #f2e9e4;
+}
+
+.inv-h1 {
+  color: #f2e9e4;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+  padding-right: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 325px;
+  height: auto;
+  padding-left: 5px;
+  margin-top: 5px;
+  outline: 1.5px groove black;
+  background-color: #2b2d42;
+}
+
+.cards:hover {
+  outline: 2px groove rgb(120, 120, 120);
+}
+
+.search-item-name {
+  transition: .4s;
+  font-weight: bold;
+  color: lightgrey;
+}
+
+.search-item-name:hover {
+  color:white;
+}
+
+.add-item {
+  transition: .4s;
+  border: none;
+  background-color: #2b2d42;
+  padding-right: 3px;
+  font-weight: bold;
+  color: green;
+}
+.add-item:hover {
+  color: rgb(0, 255, 0);
+}
+
+.inputs-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-box {
+  padding-left: 5px;
+  min-width: 330px;
+  height: 30px;
+  margin-top: 10px;
+  border: 1px solid grey;
+}
+.input-button {
+  height: 30px;
+  margin-top: 30px;
+}
+
+.inventory-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  margin-top: 10px;
+  height: auto;
+  min-width: 300px;
+}
+
+.rendered-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 300px;
+  background-color: #2b2d42;
+  margin-top: 5px;
+  outline: 1.5px groove black;
+}
+
+.rendered-items:hover {
+  outline: 2px groove rgb(120, 120, 120);
+}
+
+.inv-button {
+  transition: .4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  border: none;
+  background-color: #2b2d42;
+  color: rgb(152, 0, 0);
+  font-size: 20px;
+}
+
+.inv-button:hover {
+  color: rgb(255, 0, 0);
+}
+.inv-items-div{
+  transition: .4s;
+  margin-top: 10px;
+  padding-left: 10px;
+  border-left: 2px dotted #9a8c98;
+  min-height: 500px;
+  min-width: 300px;
+}
+
+.display-item {
+  transition: .4s;
+  color: lightgrey;
+  padding-left: 3px;
+  font-weight: bold;
+}
+.display-item:hover {
+  color: white;
+}
