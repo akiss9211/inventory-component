@@ -25,6 +25,8 @@ const App = () => {
   useEffect(() => {
     if(inventory.length) {
       localStorage.setItem('inventory-items', JSON.stringify(inventory))
+    } else {
+      localStorage.clear();
     }
   }, [inventory]);
   
