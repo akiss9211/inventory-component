@@ -19,6 +19,7 @@
   border: 5px ridge #22223b;
   background: #4a4e69 url("backgroundtexturedndapp.jpg");
   border-radius: 10px;
+  box-shadow: inset 1px 1px 12px black;
   padding: 10px;
 }
 
