@@ -38,7 +38,7 @@ const App = () => {
             setItems(resJson.results)
         })
   }, [])
-
+  //passing props down to card and inventory child components with state data to be used
   return (
     <div className="App">
       <div className='component-container-invapp'>
